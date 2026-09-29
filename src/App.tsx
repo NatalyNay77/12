@@ -60,7 +60,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white text-slate-900">
+    <div className="min-h-screen bg-emerald-50 text-slate-900">
       {/* Header */}
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -167,7 +167,7 @@ function App() {
       </section>
 
       {/* Features */}
-      <section id="features" className="py-24 bg-white">
+      <section id="features" className="py-24 bg-emerald-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Почему выбирают нас</h2>
@@ -192,7 +192,7 @@ function App() {
       </section>
 
       {/* Pricing */}
-      <section id="pricing" className="py-24 bg-slate-50">
+      <section id="pricing" className="py-24 bg-emerald-100/60">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Простые тарифы</h2>
@@ -241,7 +241,7 @@ function App() {
       </section>
 
       {/* Testimonials */}
-      <section id="testimonials" className="py-24 bg-white">
+      <section id="testimonials" className="py-24 bg-emerald-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Нам доверяют</h2>
